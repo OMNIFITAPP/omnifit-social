@@ -1,0 +1,49 @@
+name: Publish due posts
+
+# Scheduled runs publish only once the repository variable SOCIAL_ENABLED is
+# "true". Manual runs always work, so the dry run can be tested before then.
+#
+# GitHub's scheduler is best effort and can run hours late under load, so this
+# ticks often and each item publishes at the first tick after its time.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: verify the token and list due items, publish nothing"
+        type: boolean
+        default: true
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    if: ${{ vars.SOCIAL_ENABLED == 'true' || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Publish
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+        run: node scripts/publish.mjs ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '--dry-run' || '' }}
+      - name: Record what was published
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+        run: |
+          if [[ -n "$(git status --porcelain queue.json)" ]]; then
+            git config user.name "omnifit-bot"
+            git config user.email "bot@omnifit.website"
+            git add queue.json
+            git commit -m "queue: record published items [skip ci]"
+            git push
+          fi
