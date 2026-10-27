@@ -1,3 +1,43 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "2026-10-27-efficient-optimal",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-10-27-efficient-optimal/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-10-27-efficient-optimal/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-10-27-efficient-optimal/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-10-27-efficient-optimal/c-04.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-10-27-efficient-optimal/c-05.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-10-27-efficient-optimal/c-06.png"
+      ],
+      "caption": "Efficiency without a defined objective is meaningless.\nEfficient at what?\nSaving energy? Producing force? Winning a race? Surviving a season?\nYou cannot optimize a system until you know what it is optimizing for.",
+      "scheduledFor": "2026-10-27T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-10-22/slate.json#ig-thu"
+    },
+    {
+      "id": "2026-10-28-talk-test",
+      "type": "image",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-10-28-talk-test/s-01.png"
+      ],
+      "caption": "Your voice tells you how hard you are working.\n\nModerate: you can talk, but not sing.\nVigorous: you cannot say more than a few words without pausing for a breath.\n\nSources: CDC, How to Measure Physical Activity Intensity (2025). Reed and Pipe, Current Opinion in Cardiology (2014).",
+      "scheduledFor": "2026-10-28T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-10-22/slate.json#ig-fri"
+    },
+    {
+      "id": "2026-10-29-smallest-dose",
+      "type": "reel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-10-29-smallest-dose/r-smallest-dose.mp4"
+      ],
+      "caption": "What is the smallest effective dose that reliably develops the desired quality without unnecessarily compromising the rest of the training program?",
+      "scheduledFor": "2026-10-29T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-10-22/slate.json#ig-sat",
+      "thumbOffsetMs": 9600
+    }
+  ]
 }
