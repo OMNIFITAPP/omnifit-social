@@ -31,7 +31,7 @@ async function main() {
   console.log(`queue: ${queue.items.length} items, ${due.length} due`);
 
   if (DRY) {
-    for (const i of due) console.log(`  would publish ${i.id} · ${i.assets.length} images · ${i.scheduledFor}`);
+    for (const i of due) console.log(`  would publish ${i.id} · ${i.type === "reel" ? "a reel" : `${i.assets.length} image(s)`} · ${i.scheduledFor}`);
     console.log("dry run: nothing was published");
     return;
   }
@@ -40,9 +40,11 @@ async function main() {
   for (const item of due) {
     const caption = [item.caption, (item.hashtags || []).join(" ")].filter(Boolean).join("\n\n");
     try {
-      const out = item.assets.length === 1
-        ? await ig.publishImage(item.assets[0], caption)
-        : await ig.publishCarousel(item.assets, caption);
+      const out = item.type === "reel"
+        ? await ig.publishReel(item.assets[0], caption, { thumbOffsetMs: item.thumbOffsetMs })
+        : item.assets.length === 1
+          ? await ig.publishImage(item.assets[0], caption)
+          : await ig.publishCarousel(item.assets, caption);
       item.status = "published";
       item.publishedAt = new Date().toISOString();
       item.permalink = out.permalink;

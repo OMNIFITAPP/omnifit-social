@@ -6,7 +6,8 @@ are free on a public repository. Nothing private lives here.
 
 - `queue.json` — what is scheduled. An item publishes only when it is `approved`,
   its `scheduledFor` has passed, and it sits on `main`.
-- `assets/<post>/…png` — the artwork, served by GitHub Pages.
+- `assets/<post>/…png` or `…mp4` — the artwork or the reel, served by GitHub Pages. A reel's
+  queue item carries `"type": "reel"` and may carry `thumbOffsetMs` for its cover frame.
 - `scripts/publish.mjs` — the publisher. No dependencies, no build step.
 - `.github/workflows/publish.yml` — runs every 15 minutes once
   `SOCIAL_ENABLED` is `true`.

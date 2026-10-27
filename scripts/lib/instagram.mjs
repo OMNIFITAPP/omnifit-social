@@ -103,3 +103,16 @@ export async function publishCarousel(imageUrls, caption) {
   await waitForContainer(c.id);
   return publishContainer(id, c.id);
 }
+
+/** One video as a reel. Instagram fetches the video from its public address
+    and processes it before it can be published, which takes longer than an
+    image, so the wait is longer. thumbOffsetMs picks the cover frame. */
+export async function publishReel(videoUrl, caption, { thumbOffsetMs } = {}) {
+  const id = await userId();
+  const params = { media_type: "REELS", video_url: videoUrl, caption, share_to_feed: "true" };
+  if (thumbOffsetMs != null) params.thumb_offset = String(thumbOffsetMs);
+  const c = await graph("POST", `${id}/media`, params);
+  await waitForContainer(c.id, { tries: 60, delayMs: 10000 });
+  return publishContainer(id, c.id);
+}
+
