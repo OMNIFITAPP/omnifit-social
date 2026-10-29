@@ -41,9 +41,12 @@
       ],
       "caption": "What is the smallest effective dose that reliably develops the desired quality without unnecessarily compromising the rest of the training program?",
       "scheduledFor": "2026-10-29T18:00:00Z",
-      "status": "approved",
+      "status": "published",
       "slate": "weeks/2026-10-22/slate.json#ig-sat",
-      "thumbOffsetMs": 9600
+      "thumbOffsetMs": 9600,
+      "publishedAt": "2026-10-29T19:18:28.565Z",
+      "permalink": "https://www.instagram.com/reel/DfFvW03DESn/",
+      "mediaId": "18022666133926210"
     }
   ]
 }
