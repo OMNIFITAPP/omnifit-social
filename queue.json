@@ -47,6 +47,55 @@
       "publishedAt": "2026-10-29T19:18:28.565Z",
       "permalink": "https://www.instagram.com/reel/DfFvW03DESn/",
       "mediaId": "18022666133926210"
+    },
+    {
+      "id": "2026-11-03-numbers",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-03-numbers/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-03-numbers/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-03-numbers/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-03-numbers/c-04.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-03-numbers/c-05.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-03-numbers/c-06.png"
+      ],
+      "caption": "A test gives you a number.\nA repeated test gives you a trend.\nA trend gives you a question worth investigating.\nNone of them automatically gives you the answer.",
+      "scheduledFor": "2026-11-03T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-02/slate.json#ig-tue"
+    },
+    {
+      "id": "2026-11-05-cause",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-05-cause/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-05-cause/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-05-cause/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-05-cause/c-04.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-05-cause/c-05.png"
+      ],
+      "caption": "What you see in a movement is the effect.\nForce is the cause.\nChange the cause.",
+      "scheduledFor": "2026-11-05T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-02/slate.json#ig-thu"
+    },
+    {
+      "id": "2026-11-07-load-principles",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-04.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-05.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-06.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-07.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-07-load-principles/c-08.png"
+      ],
+      "caption": "The aim isn't to maximize volume, intensity, or frequency in isolation.\nThe aim is to organize a limited training and recovery budget to produce the greatest relevant improvement.",
+      "scheduledFor": "2026-11-07T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-02/slate.json#ig-sat"
     }
   ]
 }
