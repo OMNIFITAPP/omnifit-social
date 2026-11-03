@@ -61,8 +61,11 @@
       ],
       "caption": "A test gives you a number.\nA repeated test gives you a trend.\nA trend gives you a question worth investigating.\nNone of them automatically gives you the answer.",
       "scheduledFor": "2026-11-03T18:00:00Z",
-      "status": "approved",
-      "slate": "weeks/2026-11-02/slate.json#ig-tue"
+      "status": "published",
+      "slate": "weeks/2026-11-02/slate.json#ig-tue",
+      "publishedAt": "2026-11-03T20:40:49.408Z",
+      "permalink": "https://www.instagram.com/p/DfSwyu4mgPO/",
+      "mediaId": "18180202702446685"
     },
     {
       "id": "2026-11-05-cause",
