@@ -99,6 +99,102 @@
       "scheduledFor": "2026-11-07T18:00:00Z",
       "status": "approved",
       "slate": "weeks/2026-11-02/slate.json#ig-sat"
+    },
+    {
+      "id": "2026-11-08-recovery",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-08-recovery/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-08-recovery/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-08-recovery/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-08-recovery/c-04.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-08-recovery/c-05.png"
+      ],
+      "caption": "Recovery is a capacity you build.\n\nRest days are yours. Rest fully, or move the way you like: a walk, a hike, an easy ride. A day off the plan is still part of it.\n\nSleep: \"Adults should sleep 7 or more hours per night on a regular basis to promote optimal health.\" Source: Watson NF and others, Sleep 2015;38(6):843-4.",
+      "scheduledFor": "2026-11-08T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-08/slate.json#ig-sun"
+    },
+    {
+      "id": "2026-11-09-count",
+      "type": "image",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-09-count/s-01.png"
+      ],
+      "caption": "Load is easy to count. Waste is not.\nSo we train what we can count, not always what we need.",
+      "scheduledFor": "2026-11-09T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-08/slate.json#ig-mon"
+    },
+    {
+      "id": "2026-11-10-force-speed",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-10-force-speed/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-10-force-speed/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-10-force-speed/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-10-force-speed/c-04.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-10-force-speed/c-05.png"
+      ],
+      "caption": "Speed is not acceleration.\nA fast athlete can be temporarily unable to accelerate.\nA slower athlete can be accelerating rapidly.\nMeasure what you want to improve, not the thing that sounds most impressive.",
+      "scheduledFor": "2026-11-10T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-08/slate.json#ig-tue"
+    },
+    {
+      "id": "2026-11-11-method",
+      "type": "image",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-11-method/s-01.png"
+      ],
+      "caption": "Good coaching is applied scientific thinking.\nObserve the movement.\nQuestion the cause.\nTest an intervention.\nMeasure the result.\nKeep what works. Reconsider what doesn't.",
+      "scheduledFor": "2026-11-11T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-08/slate.json#ig-wed"
+    },
+    {
+      "id": "2026-11-12-consistency",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-12-consistency/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-12-consistency/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-12-consistency/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-12-consistency/c-04.png"
+      ],
+      "caption": "The plan you keep is worth more than the plan you drop.\n\nOne day a week is a real plan. Start where your week allows. Add a day when it allows more.\n\nWhat you need is the habit, not the equipment.",
+      "scheduledFor": "2026-11-12T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-08/slate.json#ig-thu"
+    },
+    {
+      "id": "2026-11-13-weekly-dose",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-13-weekly-dose/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-13-weekly-dose/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-13-weekly-dose/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-13-weekly-dose/c-04.png"
+      ],
+      "caption": "How much cardio a week, for adults?\n\nThe WHO guidelines: 150 to 300 minutes of moderate effort, or 75 to 150 minutes of vigorous effort, or an equivalent mix of the two.\n\"Some physical activity is better than none.\"\n\nSource: Bull FC and others, British Journal of Sports Medicine 2020;54(24):1451-62.",
+      "scheduledFor": "2026-11-13T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-08/slate.json#ig-fri"
+    },
+    {
+      "id": "2026-11-14-range",
+      "type": "carousel",
+      "assets": [
+        "https://omnifitapp.github.io/omnifit-social/2026-11-14-range/c-01.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-14-range/c-02.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-14-range/c-03.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-14-range/c-04.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-14-range/c-05.png",
+        "https://omnifitapp.github.io/omnifit-social/2026-11-14-range/c-06.png"
+      ],
+      "caption": "Correct movement is a range, not a point.\nInside the range, differences are style.\nOutside it, there is a cost.",
+      "scheduledFor": "2026-11-14T18:00:00Z",
+      "status": "approved",
+      "slate": "weeks/2026-11-08/slate.json#ig-sat"
     }
   ]
 }
