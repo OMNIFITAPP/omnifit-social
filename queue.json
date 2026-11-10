@@ -132,8 +132,11 @@
       ],
       "caption": "Load is easy to count. Waste is not.\nSo we train what we can count, not always what we need.",
       "scheduledFor": "2026-11-09T18:00:00Z",
-      "status": "approved",
-      "slate": "weeks/2026-11-08/slate.json#ig-mon"
+      "status": "published",
+      "slate": "weeks/2026-11-08/slate.json#ig-mon",
+      "publishedAt": "2026-11-10T00:34:30.236Z",
+      "permalink": "https://www.instagram.com/p/DfioULnjm1_/",
+      "mediaId": "18121610275977959"
     },
     {
       "id": "2026-11-10-force-speed",
